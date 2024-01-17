@@ -1,6 +1,8 @@
 def tambah(bil_a, bil_b):
   return bil_a + bil_b
-  
+def kali(angka1, angka2):
+  return angka1 * angka2
+
 print("Pilih Operasi : ")
 print("1. Penjumlahan")
 print("2. Pengurangan")
