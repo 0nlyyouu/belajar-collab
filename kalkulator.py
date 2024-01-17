@@ -1,5 +1,7 @@
 def tambah(a,b):
   return a + b 
+def kurang(a,b)
+  return a - b
 
 print("Pilih Operasi : ")
 print("1. Penjumlahan")
@@ -13,6 +15,9 @@ if pilihan in ("1","2","3"):
   angka2 = int(input("Masukkan bilangan kedua : "))
 
   if pilihan == "1":
-    print(angka1, "+", angka2, "=", tambah(angkat1, angka2))
+    print(angka1, "+", angka2, "=", tambah(angka1, angka2))
   else:
     print("Pilihan tidak valid")
+
+  if pilihan == "2":
+    print(angka1, "-", angka2, "=", kurang(angka1 - angka2))
