@@ -1,5 +1,7 @@
 def tambah(bil_a, bil_b):
   return bil_a + bil_b
+def kurang(bil_a, bil_b):
+    return bil_a - bil_b
   
 print("Pilih Operasi : ")
 print("1. Penjumlahan")
