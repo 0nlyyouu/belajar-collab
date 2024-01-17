@@ -1,9 +1,5 @@
-def tambah(a,b):
-  return a + b 
-def kurang(a,b)
-  return a - b
-def kali(a,b)
-  return a * b
+def tambah(x, y):
+  return x + y 
 
 print("Pilih Operasi : ")
 print("1. Penjumlahan")
