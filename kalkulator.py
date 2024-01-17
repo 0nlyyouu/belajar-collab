@@ -1,6 +1,6 @@
-def tambah(x, y):
-  return x + y 
-
+def tambah(bil_a, bil_b):
+  return bil_a + bil_b
+  
 print("Pilih Operasi : ")
 print("1. Penjumlahan")
 print("2. Pengurangan")
