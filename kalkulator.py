@@ -14,7 +14,6 @@ print("3. Perkalian")
 print("4. Pembagian")
 
 pilihan = input("Masukkan pilihan (1/2/3/4) : ")
->>>>>>> f5e16ba (menambahkan list pembagian)
 
 if pilihan in ("1","2","3","4"):
   angka1 = int(input("Masukkan bilangan pertama : "))
