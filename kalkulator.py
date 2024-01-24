@@ -6,6 +6,8 @@ def kali(a, b):
   return a * b
 def bagi(ang1, ang2):
   return ang1 / ang2
+def modulus(mod1, mod2):
+  return mod1 % mod2
 
 print("Pilih Operasi : ")
 print("1. Penjumlahan")
@@ -14,9 +16,9 @@ print("3. Perkalian")
 print("4. Pembagian")
 print("5. Sisa Bagi")
 
-pilihan = input("Masukkan pilihan (1/2/3/4) : ")
+pilihan = input("Masukkan pilihan (1/2/3/4/5) : ")
 
-if pilihan in ("1","2","3","4"):
+if pilihan in ("1","2","3","4","5"):
   angka1 = int(input("Masukkan bilangan pertama : "))
   angka2 = int(input("Masukkan bilangan kedua : "))
 
