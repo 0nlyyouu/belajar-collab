@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 def kurang(bil_a, bil_b):
   return bil_a - bil_b
+=======
+def tambah(bil_a, bil_b):
+  return bil_a + bil_b
+def kali(angka1, angka2):
+  return angka1 * angka2
+>>>>>>> 0b89104f4e149fa2904cfe02a1719044a3af8d5c
 
 print("Pilih Operasi : ")
 print("1. Penjumlahan")
