@@ -28,6 +28,8 @@ if pilihan in ("1","2","3","4"):
     print(angka1, "*", angka2, "=", kali(angka1, angka2))
   elif pilihan == "4":
     print(angka1, ":", angka2, "=", bagi(angka1, angka2))
-  else:
+  elif pilihan == "5":
+      print(angka1, "%", angka2, "=", modulus(angka1, angka2))
+else:
     print("Pilihan tidak valid")
 
